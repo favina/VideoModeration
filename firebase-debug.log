@@ -1,0 +1,42 @@
+[debug] [2018-03-23T23:46:33.956Z] ----------------------------------------------------------------------
+[debug] [2018-03-23T23:46:33.958Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Favina\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2018-03-23T23:46:33.958Z] CLI Version:   3.17.7
+[debug] [2018-03-23T23:46:33.958Z] Platform:      win32
+[debug] [2018-03-23T23:46:33.958Z] Node Version:  v8.9.1
+[debug] [2018-03-23T23:46:33.958Z] Time:          Fri Mar 23 2018 23:46:33 GMT+0000 (GMT Standard Time)
+[debug] [2018-03-23T23:46:33.958Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-23T23:46:33.981Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-23T23:46:33.982Z] > authorizing via signed-in user
+[debug] [2018-03-23T23:46:33.984Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-23T23:46:33.985Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/cfQEOc3PCbWmNqQ-OJau1mXeRcboqczlOlCB0HvUsjA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Mar 23 2018 23:46:33 GMT+0000 (GMT Standard Time)
+[debug] [2018-03-23T23:46:34.137Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T23:46:34.154Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/videoupload-12236  
+  
+ Fri Mar 23 2018 23:46:34 GMT+0000 (GMT Standard Time)
+[debug] [2018-03-23T23:46:35.005Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T23:46:35.006Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/videoupload-12236/tokens  
+  
+ Fri Mar 23 2018 23:46:35 GMT+0000 (GMT Standard Time)
+[debug] [2018-03-23T23:46:35.866Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T23:46:35.867Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/videoupload-12236  
+  
+ Fri Mar 23 2018 23:46:35 GMT+0000 (GMT Standard Time)
+[debug] [2018-03-23T23:46:36.786Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Favina\WebstormProjects\VideoUpload'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-03-23T23:46:38.218Z] Fetching environment
+[debug] [2018-03-23T23:46:38.221Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/387554043915:getServerAppConfig  
+  
+ Fri Mar 23 2018 23:46:38 GMT+0000 (GMT Standard Time)
+[debug] [2018-03-23T23:46:38.730Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-23T23:46:38.730Z] Starting @google-cloud/functions-emulator
+[debug] [2018-03-23T23:46:41.298Z] Parsing function triggers
